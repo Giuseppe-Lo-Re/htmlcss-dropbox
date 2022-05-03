@@ -26,12 +26,14 @@ a {
 .cta-btn {
     background-color:#0b60ff ;
     color: white;
-    padding: 5px 20px;
+    padding: 8px 20px;
 }
 
 .col-small {
     width: 40%;
+    padding: 30px 30px 0px 20px ;
 }
+
 .col-large {
     width: 60%;
 }
@@ -69,8 +71,9 @@ header li {
 /* END HEADER */
 
 /* MAIN */
+/* jumbotron */
 .container-large {
-    width: 80%;
+    width: 81%;
     margin: 0 auto;
 }
 
@@ -78,10 +81,19 @@ header li {
     background-color:#b3d0e8 ;
 }
 
+.cta {
+    display: inline-block;
+    padding: 20px 0 0 20px;
+}
 
+.undo-cta {
+    padding: 10px 0 0 20px;
+   
+}
 /* common */
 h1 {
     font-size: 65px;
+    padding-left: 15px;
 }
 
 /* END MAIN */
