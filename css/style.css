@@ -6,15 +6,46 @@
 }
 
 /* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
-
-
+.flex {
+    display: flex;
+}
 /* END COMMON */
 
 /* HEADER */
+header {
+    height: 80px;
 
+    /* TEST */
+    background-color: lightblue;
+}
 
+header ul {
+    list-style-type: none;
+}
 
+header li {
+    padding: 20px;
+}
+
+.menu {
+    /* TEST */
+    background-color: lightcoral;
+}
+
+.support-login {
+     /* TEST */
+     background-color: lightgreen;
+}
+
+.header-container {
+
+    justify-content: space-between;
+    /* align-items: center; */
+}
 /* common */
 
 
