@@ -28,6 +28,13 @@ a {
     color: white;
     padding: 5px 20px;
 }
+
+.col-small {
+    width: 40%;
+}
+.col-large {
+    width: 60%;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -62,12 +69,20 @@ header li {
 /* END HEADER */
 
 /* MAIN */
-section {
+.container-large {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbotron {
     background-color:#b3d0e8 ;
 }
 
-/* common */
 
+/* common */
+h1 {
+    font-size: 65px;
+}
 
 /* END MAIN */
 
