@@ -83,12 +83,17 @@ header li {
 
 .cta {
     display: inline-block;
-    padding: 20px 0 0 20px;
+    /* padding: 20px 0 0 20px; */
 }
 
 .undo-cta {
     padding: 10px 0 0 20px;
    
+}
+
+.arrow-down {
+    font-size: 40px;
+    padding-top: 30px;
 }
 /* common */
 h1 {
