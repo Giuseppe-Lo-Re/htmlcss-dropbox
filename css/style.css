@@ -13,47 +13,58 @@ body {
 .flex {
     display: flex;
 }
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cta-btn {
+    background-color:#0b60ff ;
+    color: white;
+    padding: 5px 20px;
+}
 /* END COMMON */
 
 /* HEADER */
 header {
     height: 80px;
-
-    /* TEST */
-    background-color: lightblue;
 }
 
+.header-container {
+    height: 100%;
+}
+
+nav,
+.support-login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.support-login {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+/* common */
 header ul {
     list-style-type: none;
 }
 
 header li {
-    padding: 20px;
+    padding:  0 20px;
 }
-
-.menu {
-    /* TEST */
-    background-color: lightcoral;
-}
-
-.support-login {
-     /* TEST */
-     background-color: lightgreen;
-}
-
-.header-container {
-
-    justify-content: space-between;
-    /* align-items: center; */
-}
-/* common */
-
-
-
 /* END HEADER */
 
 /* MAIN */
-
+section {
+    background-color:#b3d0e8 ;
+}
 
 /* common */
 
