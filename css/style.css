@@ -148,7 +148,6 @@ header li {
 }
 
 .column-header {
-    /* TEST */
     border: 1px solid lightgrey; 
     text-align: center;
     padding: 10px;
@@ -156,12 +155,11 @@ header li {
 
 .column {
     width: calc((100% / 3) - 30px);
-    /* TEST */
     border: 1px solid lightgrey;    
 }
 
 .column-main-container {
-    padding: 30px;
+    padding: 25px;
 }
 
 .column-main h3 {
@@ -170,6 +168,10 @@ header li {
 
 .column-main hr {
     width: 20%;
+}
+
+.column-main h4 {
+    padding: 20px 0 20px 0;
 }
 
 .price {
@@ -196,25 +198,36 @@ header li {
     padding-bottom: 50px; 
 }
 
-
-/* .cta-buynow {
-    padding-top: 20px;
-} */
 .text-decoration {
     text-decoration: underline;
     color: #0b60ff;
 }
 
+.column-main ul {
+    list-style-type: none;
+}
+
+.column-main li {
+    /* padding:  0 20px; */
+}
+
+
+.column-main li i {
+    color: #0b60ff;
+    font-size: 16px;
+}
+.column-main li span {
+    font-size: 14px;
+}
+
 .column-large {
-    /* TEST */
+
     border: 1px solid lightgrey;
 }
 
 .column-large-header {
-    /* TEST */
     border: 1px solid lightgrey;
 }
-
 
 /* common */
 
