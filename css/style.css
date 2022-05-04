@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 70px;
     padding-top: 50px;  
 }
 
@@ -57,6 +57,10 @@ h2 {
 /* HEADER */
 header {
     height: 80px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 99;
 }
 
 .header-container {
@@ -86,10 +90,14 @@ header li {
 /* END HEADER */
 
 /* MAIN */
+main {
+    margin-top: 80px;   
+}
 /* jumbotron */
 .container-large {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .jumbotron {
@@ -191,6 +199,7 @@ header li {
 .functions,
 .cta-buynow {
     font-size: 14px ;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
