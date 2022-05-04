@@ -10,7 +10,9 @@ h1 {
     padding-top: 70px;  
 }
 
-
+h5 {
+    font-size: 16px;
+}
 /* COMMON */
 
 body {
@@ -76,6 +78,10 @@ h3 {
 hr {
     width: 13%;
 }
+
+ul {
+    list-style-type: none;
+}
 /* END COMMON */
 
 
@@ -110,10 +116,6 @@ nav ul {
 }
 
 /* common */
-header ul {
-    list-style-type: none;
-}
-
 header li {
     padding:  0 20px;
 }
@@ -476,8 +478,27 @@ main {
 }
 
 /* Frequent questions */
+.frequent-questions {
+    padding: 100px 0;
+}
 
+.frequent-questions h4 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
 
+.frequent-questions .flex {
+    padding: 40px 0;
+    border-top: 1px solid lightgrey; 
+}
+
+.frequent-questions ul li:last-child {
+    border-bottom: 1px solid lightgrey;
+}
+
+.frequent-questions i {
+    padding-right: 40px;
+}
 /* END MAIN */
 
 /* FOOTER */
