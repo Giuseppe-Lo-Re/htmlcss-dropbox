@@ -311,7 +311,7 @@ main {
 }
 
 .business-operations h2 {
-    padding-bottom: 10px;
+    padding: 100px 0 50px 0;
 }
 
 .business-operations h4 {
@@ -332,7 +332,10 @@ main {
 /* Team Members */
 .team-members-header {
     padding-bottom: 60px;
+}
 
+.team-members-header h2 {
+    padding-bottom: 40px;
 }
 
 .team-members {
@@ -471,6 +474,10 @@ main {
 .free-trial .container-small {
     padding-bottom: 100px;
 }
+
+/* Frequent questions */
+
+
 /* END MAIN */
 
 /* FOOTER */
