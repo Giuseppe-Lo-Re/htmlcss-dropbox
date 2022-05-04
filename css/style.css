@@ -10,6 +10,7 @@ h1 {
     padding-top: 70px;  
 }
 
+
 /* COMMON */
 
 body {
@@ -72,7 +73,12 @@ h3 {
 .col-container {
     justify-content: space-between;
 }
+
+hr {
+    width: 13%;
+}
 /* END COMMON */
+
 
 /* HEADER */
 header {
@@ -114,11 +120,12 @@ header li {
 }
 /* END HEADER */
 
+
 /* MAIN */
 main {
     margin-top: 80px;   
 }
-/* jumbotron */
+/* Jumbotron */
 .container-large {
     width: 80%;
     margin: 0 auto; 
@@ -151,7 +158,7 @@ main {
     bottom:40px;
 }
 
-/* business dropobox plan */
+/* Business dropobox plan */
 .selected {
     border: 5px solid #0b60ff;
 }
@@ -171,8 +178,8 @@ main {
     border-radius: 50%;
     display: inline-block;
   }
-
-  .circle,
+  
+.circle,
 .billing {
     vertical-align: middle;
     margin: 0 2px 0px 2px;
@@ -181,10 +188,6 @@ main {
 /* subsubscription colums */
 .business-plan .column {
     border: 1px solid lightgrey;
-}
-
-.column-main hr {
-    width: 20%;
 }
 
 .column-main h4 {
@@ -273,7 +276,7 @@ main {
     font-size: 16px;
 }
 
-/* Partner research */
+/* Partner Research */
 .partner-research {
     padding-top: 100px;
 }
@@ -292,13 +295,15 @@ main {
     border: 1px solid black;
     padding: 10px 20px;
 }
-/* Business operations */
+
+
+/* Business Operations */
 .wrap {
     flex-wrap: wrap;
 }
 
 .business-operations .column {
-    padding: 18px;  
+    padding: 10px;  
 }
 
 .business-operations h2 {
@@ -319,58 +324,115 @@ main {
     padding-bottom: 60px;
 }
 
-/* team members */
+
+/* Team Members */
+.team-members-header {
+    padding-bottom: 60px;
+
+}
+
 .team-members {
     height: 400px;
 }
 
-.members {
-    /* test */
-    background-color: lightblue;
+/* logo members left */
+.col-left .square.top-left {
+    background-color:#a2d49b;
+    border: 10px solid #d0e9cd;
 }
 
-.main-team-members {
-    /* test */
+.col-left .square.top-right {
+    background-color:#61082b;  
+}
+
+.col-left .square.bottom-left {
+    background-color:#0d94cf;
+}
+
+.col-left .square.bottom-right {
+    background-color:#fe1b1c;
+}
+
+/* main team members */
+.col-center {
     background-color:#f5f5f5;
+    padding: 50px;
+    height: 100%;
 }
 
+.col-center img {
+    width: 30%;
+    padding-bottom: 20px; 
+}
+
+.quote,
+.author {
+    font-size: 13px;
+}
+
+.quote {
+    padding: 35px 0;
+}
+
+/* logo members right */
+.col-right .square.top-left {
+    background-color:#d50020;
+}
+
+.col-right .square.top-right {
+    background-color:#b3d0e8;  
+}
+
+.col-right .square.bottom-left {
+    background-color:#0d2481;
+}
+
+.col-right .square.bottom-right {
+    background-color:#fed82f;
+}
+
+/* common */
 .col-team {
     height: 100%;
     width: calc(100% / 2);
     position: relative;
-    /* test */
-    border: 1px solid black;
+    /* test
+    border: 1px solid black; */
 }
 
 .square {
     height:200px;
-    width: calc((100% / 3) / 2);
+    width: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.green {
-    background-color:#a2d49b;
-    border: 10px solid #d0e9cd;
+.square img {
+    filter: invert(1);
+    width: 50%;
+}
+
+/* position */
+.top-left {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.purple {
-    background-color:#61082b;
+.top-right {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.blue {
-    background-color:#0d94cf;
+.bottom-left {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.red {
-    background-color:#fe1b1c;
+.bottom-right {
     position: absolute;
     bottom: 0;
     right: 0;
