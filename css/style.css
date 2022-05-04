@@ -23,6 +23,9 @@ body {
 .flex {
     display: flex;
 }
+.relative {
+    position: relative;
+}
 
 img {
     width: 100%;
@@ -57,6 +60,7 @@ h2 {
 /* HEADER */
 header {
     height: 80px;
+    background-color: white;
     position: fixed;
     top:0;
     width: 100%;
@@ -111,7 +115,6 @@ main {
 
 .undo-cta {
     padding: 10px 0 20px 0;
-    font-size: 14px;
 }
 
 .arrow-down {
@@ -153,10 +156,11 @@ main {
 /* subsubscription colums */
 .col-container {
     justify-content: space-between;
+    font-size: 13px;
 }
 
 .column-header {
-    border: 1px solid lightgrey; 
+    border-bottom: 1px solid lightgrey; 
     text-align: center;
     padding: 10px;
 }
@@ -172,6 +176,7 @@ main {
 
 .column-main h3 {
     font-size: 25px;
+    padding-top: ;
 }
 
 .column-main hr {
@@ -179,7 +184,7 @@ main {
 }
 
 .column-main h4 {
-    padding: 20px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 
 .price {
@@ -188,9 +193,9 @@ main {
 }
 
 .month {
-    font-size: 14px;
+    /* font-size: 14px; */
     color:#7e8d97;
-    font-weight: 700;
+    font-weight: 500;
     padding-bottom: 45px;
 }
 
@@ -198,13 +203,16 @@ main {
 .space,
 .functions,
 .cta-buynow {
-    font-size: 14px ;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 25px;
 }
 
 .functions {
     padding-bottom: 50px; 
+}
+
+.cta-buynow {
+    padding-top: 25px;  
 }
 
 .text-decoration {
@@ -217,16 +225,12 @@ main {
 }
 
 .column-main li {
-    /* padding:  0 20px; */
+    padding-top: 20px;
 }
-
 
 .column-main li i {
     color: #0b60ff;
     font-size: 16px;
-}
-.column-main li span {
-    font-size: 14px;
 }
 
 .column-large {
