@@ -23,9 +23,6 @@ body {
 .flex {
     display: flex;
 }
-.relative {
-    position: relative;
-}
 
 img {
     width: 100%;
@@ -124,6 +121,9 @@ main {
 
 .jumbotron img {
     padding-top: 30px;
+    position: relative;
+    top: 100;
+
 
 }
 
