@@ -264,6 +264,10 @@ main {
 }
 
 /* Partner research */
+.partner-research {
+    padding-top: 100px;
+}
+
 .partner-research .col-small {
     padding:0;
     padding-left: 40px;
@@ -271,14 +275,12 @@ main {
 }
 
 .text div {
-    padding-top: 20px;
+    padding: 30px 0 30px 0;
 }
 
-.partner-research .cta-btn {
-    background-color: white;
-    color: black;
+.btn {
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 
