@@ -43,15 +43,11 @@ a {
 
 .col-small {
     width: 40%;
-    padding: 30px 30px 20px 0 ;
-    /* TEST */
-    background-color: lightcoral;
+    padding: 30px 30px 20px 0;
 }
 
 .col-large {
     width: 60%;
-    /* TEST */
-    background-color: lightseagreen;
 }
 
 h2 {
@@ -268,10 +264,24 @@ main {
 }
 
 /* Partner research */
-
-.text {
-    margin-left: left 20px;
+.partner-research .col-small {
+    padding:0;
+    padding-left: 40px;
+    padding-top: 30px;
 }
+
+.text div {
+    padding-top: 20px;
+}
+
+.partner-research .cta-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
 
 /* END MAIN */
 
@@ -282,3 +292,4 @@ main {
 
 
 /* END FOOTER */
+
