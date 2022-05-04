@@ -11,6 +11,7 @@ h1 {
 }
 
 /* COMMON */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -43,15 +44,23 @@ a {
 .col-small {
     width: 40%;
     padding: 30px 30px 20px 0 ;
+    /* TEST */
+    background-color: lightcoral;
 }
 
 .col-large {
     width: 60%;
+    /* TEST */
+    background-color: lightseagreen;
 }
 
 h2 {
     font-size: 40px;
     padding: 100px 0 50px 0;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 .padding-bottom-block {
@@ -184,10 +193,6 @@ main {
     padding: 25px;
 }
 
-.column-main h3 {
-    font-size: 25px;
-}
-
 .column-main hr {
     width: 20%;
 }
@@ -260,10 +265,6 @@ main {
 
 .column-large-main {
     justify-content: space-between;
-}
-
-.column-large-main h3 {
-    font-size: 25px;
 }
 
 .column-large-main .cta-btn {
