@@ -519,6 +519,11 @@ footer .container-large {
 
 .footer-menu h5 {
     font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-menu li {
+    padding-bottom: 10px;
 }
 
 .language-selector {
