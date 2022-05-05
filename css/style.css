@@ -69,7 +69,7 @@ a {
 }
 
 .column {
-    width: calc((100% / 3) - 40px);
+    width: calc((100% / 3) - 35px);
     font-size: 13px;  
 }
 
