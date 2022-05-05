@@ -5,43 +5,51 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
     font-size: 70px;
     padding-top: 70px;  
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 h5 {
     font-size: 16px;
-}
-/* COMMON */
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.container-small {
-    width: 70%;
-    margin: 0 auto;
-
-}
-.flex {
-    display: flex;
 }
 
 img {
     width: 100%;
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-.cta-btn {
-    background-color:#0b60ff ;
-    color: white;
-    padding: 8px 20px;
-    text-align: center;
+.container-small {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-large {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .col-small {
@@ -53,21 +61,15 @@ a {
     width: 60%;
 }
 
-h2 {
-    font-size: 40px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-.padding-bottom-block {
-    margin-bottom: 120px;
-    display: inline-block;
+.cta-btn {
+    background-color:#0b60ff ;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
 }
 
 .column {
-    width: calc((100% / 3) - 30px);
+    width: calc((100% / 3) - 40px);
     font-size: 13px;  
 }
 
@@ -127,12 +129,9 @@ header li {
 main {
     margin-top: 80px;   
 }
-/* Jumbotron */
-.container-large {
-    width: 80%;
-    margin: 0 auto; 
-}
 
+
+/* Jumbotron */
 .jumbotron {
     background-color:#b3d0e8 ;
 }
@@ -159,6 +158,7 @@ main {
     right: 10px;
     bottom:40px;
 }
+
 
 /* Business plan */
 .selected {
@@ -187,10 +187,11 @@ main {
     margin: 0 2px 0px 2px;
 }
 
+
 /* subsubscription colums */
 .business-plan h2 {
     font-size: 40px;
-    padding: 100px 0 50px 0;
+    padding: 200px 0 50px 0;
 }
 
 .business-plan .column {
@@ -212,6 +213,11 @@ main {
 
 .cta-buynow {
     padding-top: 25px;  
+}
+
+.padding-bottom-block {
+    margin-bottom: 120px;
+    display: inline-block;
 }
 
 .column-large-container {
@@ -245,9 +251,8 @@ main {
     padding: 10px;
 }
 
-
 .column-main-container {
-    padding: 25px;
+    padding: 20px;
 }
 
 .price {
@@ -283,21 +288,21 @@ main {
     font-size: 16px;
 }
 
+
 /* Partner Research */
 .partner-research {
     padding-top: 100px;
 }
 
 .partner-research .col-small {
-    padding:0;
-    padding-left: 40px;
-    padding-top: 30px;
+    padding: 30px 0 0 50px;
 }
 
 .side div {
     padding: 30px 0 30px 0;
 }
 
+/* common */
 .btn {
     border: 1px solid black;
     padding: 10px 20px;
@@ -332,20 +337,20 @@ main {
 }
 
 
-/* Team Members */
-.team-members-header {
+/* Team Partners */
+.team-partners-header {
     padding-bottom: 60px;
 }
 
-.team-members-header h2 {
+.team-partners-header h2 {
     padding-bottom: 40px;
 }
 
-.team-members {
+.team-partners {
     height: 400px;
 }
 
-/* logo members left */
+/* logo partners left */
 .col-left .square.top-left {
     background-color:#a2d49b;
     border: 10px solid #d0e9cd;
@@ -363,7 +368,7 @@ main {
     background-color:#fe1b1c;
 }
 
-/* main team members */
+/* main center partners */
 .col-center {
     background-color:#f5f5f5;
     padding: 50px;
@@ -384,7 +389,7 @@ main {
     padding: 35px 0;
 }
 
-/* logo members right */
+/* logo partners right */
 .col-right .square.top-left {
     background-color:#d50020;
 }
@@ -406,7 +411,6 @@ main {
     height: 100%;
     width: calc(100% / 2);
     position: relative;
-    flex-grow: 1;
 }
 
 .square {
@@ -416,7 +420,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .square img {
@@ -424,7 +427,7 @@ main {
     width: 50%;
 }
 
-/* position */
+/* positions */
 .top-left {
     position: absolute;
     top: 0;
@@ -449,13 +452,10 @@ main {
     right: 0;
 }
 
+
 /* Free Trial */
 .free-trial {
     background-color: #b3d0e8;
-}
-
-.flex {
-    justify-content: space-between;
 }
 
 .free-trial h2 {
@@ -503,6 +503,7 @@ main {
 }
 /* END MAIN */
 
+
 /* FOOTER */
 footer {
     background-color: black;
@@ -526,15 +527,13 @@ footer .container-large {
     padding-bottom: 10px;
 }
 
+footer hr {
+    width: 10% ;
+}
 .language-selector {
     font-size: 12px;
     color: #999999;
     padding-top: 50px;
 }
-
-
-/* common */
-
-
 /* END FOOTER */
 
